@@ -1,0 +1,21 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+[Bb]in
+[Bb]in/
+[Dd]ebug*/
+[Oo]bj/
+[Rr]elease*/
+[Tt]est[Rr]esult*
+
+#user files
+*.suo
+*.user
+*.vspscc
+*.vsmdi
+*.jmconfig
+
+#tests 
+TestResults
+*ncrunch*
+
+# exclude nuget packages - solution uses package restore (see readme)
+packages
